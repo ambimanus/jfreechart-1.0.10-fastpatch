@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="experimental"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="swt"/>
+	<classpathentry kind="src" path="tests"/>
+	<classpathentry kind="lib" path="lib/gnujaxp.jar"/>
+	<classpathentry kind="lib" path="lib/iText-2.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jcommon-1.0.13.jar"/>
+	<classpathentry kind="lib" path="lib/junit.jar"/>
+	<classpathentry kind="lib" path="lib/servlet.jar"/>
+	<classpathentry kind="lib" path="lib/swtgraphics2d.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/swt-3.3.2-win32-win32-x86/swt.jar" sourcepath="C:/Program Files/Java/swt-3.3.2-win32-win32-x86/src.zip"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
