@@ -178,8 +178,10 @@ public class StandardXYItemRendererFast extends StandardXYItemRenderer {
                 }
             } else if (item != 0) {
                 // get the previous data point...
-                double x0 = dataset.getXValue(series, item - currentIndex.getPreviousDrawnItem());
-                double y0 = dataset.getYValue(series, item - currentIndex.getPreviousDrawnItem());
+            	int prev = currentIndex.getPreviousDrawnItem();
+            	int prevIndex = prev == 0 ? 0 : item - prev;
+                double x0 = dataset.getXValue(series, prevIndex);
+                double y0 = dataset.getYValue(series, prevIndex);
                 if (!Double.isNaN(x0) && !Double.isNaN(y0)) {
                     boolean drawLine = true;
                     if (getPlotDiscontinuous()) {
